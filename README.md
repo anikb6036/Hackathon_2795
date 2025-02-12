@@ -1,4 +1,4 @@
- Tutorials Ninja E-Commerce Testing Project
+ # Tutorials Ninja E-Commerce Testing Project
 
 Project Overview
 The Tutorials Ninja platform is an e-commerce website offering a variety of products, such as electronics, fashion, and home goods. This project aims to test the platform's core functionalities through both manual and automated testing to ensure a seamless and robust user experience.
@@ -43,7 +43,7 @@ Setup Instructions
 3. Test Report
 The Test Summary Report is generated in Excel format. Review the provided Test Summary Report.xlsx for detailed insights into test cases, results, and identified issues.
 
-Project Structure
+# Project Structure
 Key Files
 1.	Hackathon_Project.java
 o	Contains step definitions and workflows for user registration, login, browsing, search, and checkout functionality.
