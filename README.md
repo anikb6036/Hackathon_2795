@@ -1,68 +1,66 @@
- # Tutorials Ninja E-Commerce Testing Project
+# 🛍️ Tutorials Ninja E-Commerce Testing Project  
 
-Project Overview
-The Tutorials Ninja platform is an e-commerce website offering a variety of products, such as electronics, fashion, and home goods. This project aims to test the platform's core functionalities through both manual and automated testing to ensure a seamless and robust user experience.
+![E-Commerce Testing](https://tutorialsninja.com/demo/index.php?route=common/home)  
 
-Key Features and Technologies
-Technologies Used
-•	Programming Language: Java
-•	Frameworks: Selenium WebDriver, Cucumber (BDD)
-•	Design Pattern: Page Object Model (POM)
-•	Testing Tools: TestNG
-•	Reports: Excel-based summary for manual and automated test results
-•	IDE: IntelliJ IDEA
-Features Automated
-1.	User Registration
-o	Validation for successful registration.
-o	Error handling for invalid or missing credentials.
-2.	User Login
-o	Valid, invalid, and empty credential scenarios.
-o	Verification of error messages for incorrect logins.
-3.	Product Browsing and Display
-o	Check product categories like iPhones, PCs, and cameras.
-4.	Search Functionality
-o	Validate search results based on keywords.
-o	Sorting and filtering (e.g., high-to-low, A-Z).
-5.	Cart Management
-o	Adding products to the cart.
-o	Validating cart totals and checkout readiness.
-6.	Checkout Process
-o	Apply promo codes and validate discounts.
-Setup Instructions
-1. Prerequisites
-•	Java (JDK 8 or above)
-•	Maven
-•	Selenium WebDriver (latest version)
-•	ChromeDriver
-•	TestNG
-•	IDE (e.g., IntelliJ IDEA or Eclipse)
-2. Running the Tests
-1.	Open the project in your preferred IDE.
-2.	Navigate to the Hackathon_Project.java file in the Hackathon package.
-3.	Execute the tests using TestNG or run Cucumber feature files directly.
-3. Test Report
-The Test Summary Report is generated in Excel format. Review the provided Test Summary Report.xlsx for detailed insights into test cases, results, and identified issues.
+## 📖 Overview  
+The **Tutorials Ninja** platform is an e-commerce website offering products across multiple categories like **electronics, fashion, and home goods**. This project ensures its core functionalities work seamlessly using **manual and automated testing**.  
 
-# Project Structure
-Key Files
-1.	Hackathon_Project.java
-o	Contains step definitions and workflows for user registration, login, browsing, search, and checkout functionality.
-2.	hackathon.feature
-o	Cucumber feature file defining the BDD test scenarios.
-3.	Test Summary Report.xlsx
-o	A detailed report summarizing the results of manual and automated testing.
-Testing Approach
-Manual Testing
-1.	Exploratory testing of the platform to identify usability and functional issues.
-2.	Validation of workflows, including registration, login, product search, and checkout.
-1	Automation Testing
-•	Framework: Cucumber with Selenium WebDriver.
-•	Test Scenarios:
-o	Registration and login workflows.
-o	Product search and category filters.
-o	Checkout process with promo codes.
-•	Design: Modular test structure with reusable methods in POM classes.
+🚀 **Project Goals:**  
+✅ Identify usability & functional issues through manual testing.  
+✅ Automate test cases for **registration, login, product browsing, cart, and checkout**.  
+✅ Implement a **robust test framework** using **Selenium WebDriver + Cucumber**.  
 
-Group Presentation Video
-A comprehensive walkthrough of the platform's testing processes and features is available. Access the presentation video here:
+---
 
+## 🛠️ **Technologies Used**  
+
+| Category         | Technology Used |
+|-----------------|----------------|
+| **Programming** | Java (JDK 8+) |
+| **Frameworks** | Selenium WebDriver, Cucumber (BDD) |
+| **Design Pattern** | Page Object Model (POM) |
+| **Testing Tools** | TestNG |
+| **Reporting** | Excel-based test reports |
+| **IDE** | IntelliJ IDEA / Eclipse |
+| **Build Tool** | Maven |
+| **Browser** | ChromeDriver |
+
+---
+
+## 🌟 **Project Features**  
+
+### 🔹 **User Registration**  
+- ✅ Successful registration validation.  
+- ❌ Error handling for invalid/missing credentials.  
+
+### 🔹 **User Login**  
+- ✅ Valid, invalid, and empty credential scenarios.  
+- 🔄 Error message verification for incorrect logins.  
+
+### 🔹 **Product Browsing & Search**  
+- 🔍 Browse categories: iPhones, PCs, Cameras.  
+- 🏷️ Validate **search results, sorting, and filtering** (e.g., High-to-Low price).  
+
+### 🔹 **Cart & Checkout Management**  
+- 🛒 Add products to cart & validate totals.  
+- 🎟️ Apply **promo codes** & verify discounts.  
+
+---
+
+## 🔧 **Setup Instructions**  
+
+### ✅ **Prerequisites**  
+Ensure you have the following installed:  
+- ☕ **Java (JDK 8+)**  
+- 🏗 **Maven**  
+- 🌐 **Selenium WebDriver**  
+- 💻 **ChromeDriver**  
+- 🛠 **TestNG**  
+- 🖥 **IDE:** IntelliJ IDEA / Eclipse  
+
+### 🚀 **Running the Tests**  
+
+#### **1️⃣ Clone the Repository**
+```sh
+git clone https://github.com/anikb6036/
+cd TutorialsNinjaTesting
