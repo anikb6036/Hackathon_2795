@@ -1,6 +1,5 @@
 # 🛍️ Tutorials Ninja E-Commerce Testing Project  
 
-![E-Commerce Testing](https://tutorialsninja.com/demo/index.php?route=common/home)  
 
 ## 📖 Overview  
 The **Tutorials Ninja** platform is an e-commerce website offering products across multiple categories like **electronics, fashion, and home goods**. This project ensures its core functionalities work seamlessly using **manual and automated testing**.  
